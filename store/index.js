@@ -16,7 +16,7 @@ for (let index = 1;
     alert("Este es el resumen de tu compra "+
     resumenCompra+ "El total a pagar por la compra es: " +totalApagar); */
 
-const comprar = () => {
+/* const comprar = () => {
   let totalApagar = 0;
   for (let index = 1; index <= 2; index++) {
     const nombre = prompt("¿Qué producto desea llevar?");
@@ -27,11 +27,12 @@ const comprar = () => {
   }
   console.log(totalApagar);
   return totalApagar;
-};
+}; */
 
 /* const total1 = comprar();
 const total2 = comprar();
 const total3 = comprar();
 const total = total1 + total2 + total3; */
-const total = comprar() + comprar() + comprar();
+/* const total = comprar() + comprar() + comprar();
 console.log("Las ventas totales fueron "+total)
+ */
